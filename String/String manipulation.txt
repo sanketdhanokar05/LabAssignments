@@ -1,0 +1,125 @@
+String Test
+---------------
+
+Create a class with methods
+  1. concatAdd() with return type String and parameters two Strings access public
+   remove spaces from the strings and concatinate them and return it
+  2. reverse() with return String and parameter one String access public
+   reverse the characters in the string and return it
+  3. paddingIndex() with return int and params two Strings access protected
+  Take first string and search for the second string within it. Find the index of the first character of second string in the first string and return it. Ex: Hindustan, dust ... then return 3
+  4. isDigit() with return boolean and param String. check if the string is a number
+
+
+
+1.Accept a String value in a digit.
+If it is a single digit print same number,
+If it is a double digit print sum of digits;
+
+Example- 1 return 1
+         23 return 5
+         23D return Wrong digit
+
+2.String- "My company name is capgemini"
+Pick a line in a pattern and display in a lowercase
+
+Pattern - Starts with c then any character then m
+
+Example-  pick the word with 
+         First letter starts with c
+         Second should be anything
+         third should be m
+
+
+3.String -"My company name is capgemini"
+Pick a line in a pattern and display in a lowercase
+Pattern - Starts with c then any character then m or p
+
+Example-  pick the word with 
+         First letter starts with c
+         Second should be anything
+         third should be m or p
+
+
+
+
+
+String 
+----------
+
+Create class Game {
+  String palyer1;
+  String palyer2;
+ ...
+
+Create class PalyMonitor {
+   Game game;
+  String winningTracking;
+  (value stored will be no of games in a month, no of wins in a month : .....}
+  for e.g if player won 2/3 and 2/5 and 0/2 then store as "3,2:5,2:2,0"
+
+methods:
+  int matchWin(String winningTracking){
+     get the number of games and wins and calculate percentage and return the value
+
+  int playerValidate(winningTracking, game) {
+     check if name is start with Caps, followed by small letters, can have hiphen, space
+           no digits or special chars
+  if both players match condition, return 10, if only one match, return 5 else return 0
+
+
+
+
+----------------------------------------------------------------------------------------------------------------
+
+
+
+String handling
+
+Problem statement #4
+Develop an application to build the Person object from the given input string.
+
+Operations:-
+1.	Build the Person object from the given string. 
+2.	Find the grade of the person based on the salary
+a)	If salary<10000, he is C grade
+b)	If salary>=10000 and salary<=25000, he is B grade
+c)	If salary>25000, he is A grade
+
+Specifications:-
+
+1.	create a Person class
+   properties:
+private string loc;
+private string name;
+private double salary;
+add constructors, setters, getters, toString methods
+2.	Create a Main class and in the main method accept a String as input in the following format
+Location Name         Salary
+HydNMKiran-KumarSAL25
+Where, first word is Location and Name is preceded by NM
+And salary is preceded by SAL.
+
+3.	Implement method to accept Location,Name,Salary as a single String.
+And extract the Location, Name, salary according the pattern.
+And build the Person object and return the same.
+Method:-
+	Public  Person    buildPerson(String locationNameSalaryString){
+
+	// write the logic to extract all properly and build Person object
+	//refer next step to create Person object.
+	}
+
+4.	Implement the method to find out the grade of a given Person object.
+Method:-
+	Public  String  findGrade(Person person){
+	//write the logic by referring operations section
+	//return grade as String
+	}
+
+
+
+
+
+
+
